@@ -1,7 +1,8 @@
 # boswellsrvguide<!-- FILE: articles/best-rvs-beginners.html -->
 <!doctype html>
 <html lang="en">
-<head>
+<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7985180113095097"
+     crossorigin="anonymous"></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Best RVs for Beginners in 2025 — Boswell RV Guide</title>
