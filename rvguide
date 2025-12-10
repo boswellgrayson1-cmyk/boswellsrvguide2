@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RV Roadwise — The Friendly RV Buying & Care Guide</title>
+  <meta name="description" content="Complete single-page guide to choosing, using, and maintaining a nice RV. Checklists, buying tips, maintenance, packing lists, and a gallery.">
+  <style>
+    :root{--accent:#0f766e;--muted:#6b7280;--bg:#f8fafc;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; margin:0; background:var(--bg); color:#0f172a; line-height:1.5}
+    .container{max-width:1100px;margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;gap:18px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:22px}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin-top:6px}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:24px}
+    main{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    aside{position:sticky;top:24px;height:fit-content;background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04)}
+
+    .section{margin-bottom:18px}
+    .section h2{font-size:18px;margin:0 0 10px}
+    .feature-list{display:flex;flex-wrap:wrap;gap:12px}
+    .feature{flex:0 0 calc(50% - 6px);background:#f1f5f9;padding:10px;border-radius:8px}
+    .checklist{list-style:none;padding:0;margin:0}
+    .checklist li{padding:8px 0;border-bottom:1px dashed #e6eef6;color:#0b1220}
+
+    .card{background:#fff;border-radius:10px;padding:14px;margin-bottom:12px;box-shadow:0 4px 12px rgba(2,6,23,0.03)}
+
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+    .gallery img{width:100%;height:120px;object-fit:cover;border-radius:8px}
+
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+
+    footer{margin-top:22px;color:var(--muted);font-size:13px;text-align:center}
+
+    /* responsive */
+    @media (max-width:900px){.grid{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.feature{flex-basis:100%}}
+    @media (max-width:480px){.gallery img{height:90px}}
+
+    /* small badges */
+    .badge{display:inline-block;background:#eefcfb;color:#074c47;padding:6px 8px;border-radius:999px;font-weight:700;font-size:12px}
+
+    /* mini table */
+    table{width:100%;border-collapse:collapse}
+    table th, table td{padding:8px;text-align:left;border-bottom:1px solid #eef2f7}
+    table th{background:#fbfcfd}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">RV</div>
+      <div>
+        <h1>RV Roadwise — A friendly guide to picking & caring for a nice RV</h1>
+        <p class="lead">Everything you need: buying checklist, packing lists, maintenance, trip planning, and a gallery to inspire you.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="section card">
+          <h2>Quick Overview</h2>
+          <p>RVs come in many shapes. The most common classes are:</p>
+          <div class="feature-list" style="margin-top:10px">
+            <div class="feature"><strong>Class A</strong> — Bus-like luxury motorhomes, spacious, higher cost.</div>
+            <div class="feature"><strong>Class B</strong> — Camper vans, compact, easy to drive and park.</div>
+            <div class="feature"><strong>Class C</strong> — Mid-size with over-cab sleeping area — balanced choice.</div>
+            <div class="feature"><strong>Travel Trailer</strong> — Towable, wide range of sizes and price points.</div>
+          </div>
+        </section>
+
+        <section class="section card" id="buying-checklist">
+          <h2>Buying Checklist</h2>
+          <ul class="checklist">
+            <li><strong>Budget:</strong> Purchase price + insurance + maintenance + campground fees.</li>
+            <li><strong>Floorplan:</strong> Consider sleeping arrangement, bathroom placement, kitchen size.</li>
+            <li><strong>Drivability:</strong> Tow vehicle capacity or driver's comfort with a larger motorhome.</li>
+            <li><strong>Age & Condition:</strong> Get vehicle history, inspect roof, plumbing, appliances.</li>
+            <li><strong>Test Drive & Systems Check:</strong> AC, heater, fridge on LP/electric, water pumps, slide-outs.</li>
+            <li><strong>Documentation:</strong> Title, VIN check, service records, warranty transfer.</li>
+          </ul>
+        </section>
+
+        <section class="section card" id="must-haves">
+          <h2>Must-have Equipment</h2>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <div style="flex:1;min-width:220px">
+              <h3 style="margin:0 0 8px 0">Safety & Driving</h3>
+              <ul>
+                <li>Roadside emergency kit (flares, jumper cables, basic tools)</li>
+                <li>Tire pressure gauge & spare tire / jack rated for the RV</li>
+                <li>Backup camera or spotter for larger rigs</li>
+              </ul>
+            </div>
+            <div style="flex:1;min-width:220px">
+              <h3 style="margin:0 0 8px 0">Camp Setup</h3>
+              <ul>
+                <li>Leveling blocks, wheel chocks, 30/50 amp adapters (as needed)</li>
+                <li>Freshwater hose (drinking-safe) and sewer hose kit</li>
+                <li>Surge protector and extension cord rated for RV use</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section card" id="maintenance">
+          <h2>Basic Maintenance & Seasonal Care</h2>
+          <p>Keep an RV in top shape by following a simple routine:</p>
+          <table>
+            <thead>
+              <tr><th>Task</th><th>Frequency</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Check tire pressure & tread</td><td>Before long trips / monthly</td></tr>
+              <tr><td>Inspect roof seams & seals</td><td>Twice a year</td></tr>
+              <tr><td>Service generator & engine</td><td>Per manufacturer schedule</td></tr>
+              <tr><td>Flush water heater & winterize plumbing</td><td>Yearly / before winter storage</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section card" id="packing">
+          <h2>Packing & Organization</h2>
+          <p>Smart packing saves space and reduces frustration. Use clear bins, over-door organizers, and a small toolbox dedicated to the RV.</p>
+          <ul>
+            <li>Kitchen: stackable pans, folding dish rack, spice kit</li>
+            <li>Bedroom: compact linens, travel pillows, blackout shades</li>
+            <li>Outdoor: folding table, camp chairs, tarp, portable grill</li>
+            <li>Electronics: power bank, USB hub, cable organizers</li>
+          </ul>
+        </section>
+
+        <section class="section card" id="trip-planning">
+          <h2>Trip Planning Tips</h2>
+          <ol>
+            <li>Plan driving distances conservatively — allow more time for stops and scenic routes.</li>
+            <li>Reserve campgrounds in peak seasons; look for RV-friendly amenities (dump station, hookups).</li>
+            <li>Use apps and forums to verify clearance heights, road restrictions, and gate widths.</li>
+            <li>Have a basic backup plan for boondocking or alternate sites if your first choice is full.</li>
+          </ol>
+        </section>
+
+        <section class="section card" id="recommended-models">
+          <h2>Popular Picks (general suggestions)</h2>
+          <p>Here are widely-recommended models across categories — research current model years & reviews before buying.</p>
+          <table>
+            <thead><tr><th>Type</th><th>Example Models</th></tr></thead>
+            <tbody>
+              <tr><td>Class A</td><td>Winnebago Horizon, Tiffin Allegro</td></tr>
+              <tr><td>Class B</td><td>Winnebago Travato, Mercedes Sprinter conversions</td></tr>
+              <tr><td>Class C</td><td>Jayco Redhawk, Thor Four Winds</td></tr>
+              <tr><td>Travel Trailer</td><td>Airstream, Keystone Cougar</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section card" id="gallery">
+          <h2>Inspiration Gallery</h2>
+          <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" alt="RV parked at a lake">
+            <img src="https://images.unsplash.com/photo-1542317854-3b8b1fd0692d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=2" alt="Interior of camper van">
+            <img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3" alt="Couple camping">
+            <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=4" alt="RV kitchen">
+            <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=5" alt="RV campground">
+            <img src="https://images.unsplash.com/photo-1549887534-8a7b3a8f7a4b?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=6" alt="Night at campsite">
+          </div>
+        </section>
+
+        <section class="section card" id="faq">
+          <h2>FAQ</h2>
+          <p><strong>Q:</strong> Should I buy new or used?<br><strong>A:</strong> New offers warranty and less initial maintenance; used can be a great value if inspected carefully.</p>
+          <p><strong>Q:</strong> How big of an RV can I handle?<br><strong>A:</strong> Start with something you feel comfortable driving. Many first-timers choose Class B or small Class C.</p>
+        </section>
+
+      </main>
+
+      <aside>
+        <div style="margin-bottom:12px">
+          <div class="badge">Free Guide</div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0">One-page Quick Checklist</h3>
+          <ul style="margin:0;padding-left:16px">
+            <li>Research models & floorplans</li>
+            <li>Check RV inspection & VIN history</li>
+            <li>Test systems & appliances</li>
+            <li>Confirm insurance & registrations</li>
+            <li>Pack emergency & camp kits</li>
+          </ul>
+          <div style="margin-top:10px"><a class="btn" href="#buying-checklist">Use Buying Checklist</a></div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin:0 0 8px 0">Trip Essentials</h3>
+          <p style="margin:0 0 8px 0;color:var(--muted)">Plug-and-play items to always have onboard.</p>
+          <ul style="margin:0;padding-left:16px">
+            <li>First-aid kit</li>
+            <li>Tool kit & Duct tape</li>
+            <li>Water filter & coffee maker</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 style="margin:0 0 8px 0">Need a custom page?</h3>
+          <p style="margin:0 0 10px 0;color:var(--muted)">Tell me your style (minimal, bold, photo-led) and I can adapt this page and the copy.</p>
+          <a class="btn" href="#contact">Customize</a>
+        </div>
+
+        <div class="card" id="contact">
+          <h3 style="margin:0 0 8px 0">Contact</h3>
+          <p style="margin:0;color:var(--muted)">Questions or want this converted to a multi-page site? Leave a note and I’ll help.</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Made with care • Save this file as <code>index.html</code> and open it in your browser. Replace images with your own photos to personalize.</p>
+    </footer>
+  </div>
+</body>
+</html>
