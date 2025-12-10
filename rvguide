@@ -1,0 +1,186 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Boswell RV Guide — High-Profit RV Content</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Boswell RV Guide</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to the RV Profit Hub</h2>
+      <p>Your source for RV tips, buying guides, accessories, and high-earning affiliate content. Updated for 2025.</p>
+      <p><a href="articles.html" class="button">Browse Articles</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Boswell RV Guide</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- articles.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Articles — Boswell RV Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>All RV Articles</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <ul class="article-list">
+      <li><a href="articles/best-rvs-beginners.html">Best RVs for Beginners</a></li>
+      <li><a href="articles/must-have-accessories.html">5 Must-Have RV Accessories</a></li>
+      <li><a href="articles/rv-insurance-cost.html">RV Insurance Cost (2025)</a></li>
+      <li><a href="articles/rv-loans-financing.html">RV Loans & Financing Guide</a></li>
+      <li><a href="articles/rv-maintenance-cost.html">RV Maintenance Cost Breakdown</a></li>
+      <li><a href="articles/used-rv-checklist.html">Used RV Buying Checklist</a></li>
+      <li><a href="articles/best-rv-brands.html">Best RV Brands Ranked</a></li>
+      <li><a href="articles/roof-leak-guide.html">How to Prevent Roof Leaks</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Boswell RV Guide</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- about.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Boswell RV Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>About This Site</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>Boswell RV Guide was created to help new and experienced RV owners make smarter decisions — while giving you access to high-quality recommendations and tools that save time and money.</p>
+      <p>Our goal is to offer clear, value-packed, high-profit RV content updated for 2025 and beyond.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Boswell RV Guide</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- contact.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta.charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Boswell RV Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>Email us at: <strong>support@boswellrv.com</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Boswell RV Guide</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- style.css -->
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #222;
+}
+header {
+  background: #003366;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  margin-top: 40px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #003366;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+ul.article-list li{
+  margin-bottom: 10px;
+}
+</style>
